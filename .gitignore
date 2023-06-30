@@ -27,5 +27,4 @@ target/
 wso2*/scripts
 
 # Charts and requirement.lock
-*.tgz
 requirements.lock

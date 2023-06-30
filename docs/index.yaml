@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  am-pattern-1:
+  - apiVersion: v1
+    appVersion: 4.1.0
+    created: "2023-06-30T14:11:25.4735691-03:00"
+    dependencies:
+    - condition: wso2.deployment.dependencies.cluster_mysql
+      name: mysql-am
+      repository: https://helm.wso2.com
+      version: 4.1.0-2
+    - condition: wso2.deployment.dependencies.nfsServerProvisioner
+      name: nfs-server-provisioner
+      repository: https://helm.wso2.com
+      version: 1.1.0
+    description: A Helm chart for the deployment of WSO2 API Manager Pattern 1 (HA
+      All-In-One Deployment)
+    digest: 08684bcedfcf36ade20cc1179186062e99704b84cd1e88aecb43f0b2dcbc121b
+    icon: https://wso2.cachefly.net/wso2/sites/all/images/wso2logo.svg
+    name: am-pattern-1
+    urls:
+    - https://nickmman.github.io/kubernetes-apim/am-pattern-1-4.1.0-2.tgz
+    version: 4.1.0-2
+generated: "2023-06-30T14:11:25.4634755-03:00"
